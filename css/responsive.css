@@ -1,0 +1,445 @@
+﻿@charset "utf-8";
+
+/* ######### ############### ############## BELOW FOR RESPONSIVE DEVICES ########### ###########  */
+ 
+/*  fluentdogs.com  v5j 6/2021    */
+
+/*  
+	Orange (logo) = #e67824
+ 	Grey (logo) = #4d4e4e
+ 	teal from existing website: #6ec1e4 (carlas choice)
+*/
+
+
+@media screen and (max-width: 1099px) { 
+
+/* removes main nav from small screen */
+#menucontainer, #cssmenu, #servicecssmenu, #servicemenucontainer {display: none !important; }
+
+
+
+body {
+	margin: 0;
+	color: #4d4e4e;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	text-align: center!important;
+}
+
+#topcontainer {
+	width: 100%;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e67824;
+}
+
+#top {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#top h1, #top h2 {
+	font-size: 1em;
+}
+
+
+
+
+.alignleft,  
+.aligncenter,  
+.alignright {float: none!important; display: block!important; text-align: center!important; margin-left: auto !important; 	margin-right:auto !important;}
+
+
+
+
+img {height: auto; }
+
+	
+iframe {
+	max-width: 100%;
+	height: auto;
+}
+
+#headercontainer {
+	width: 100%;
+	background-color: #fff;
+}
+
+#headercontainer #logo {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#headercontainer #logo img {
+	max-width: 90%;
+}
+
+#headertext{display: none;}
+#headertext b {}
+#headertext span {}
+#headertext h1 {}
+ 
+  #site-content #slider img {
+	height: auto;
+	width: 100%;
+}
+
+.content{
+	float: none;
+	padding-bottom: 50px;
+	background-image: url('../png/bg.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-position: 0px 250px;
+}
+
+
+ 
+
+ /* PAGE AND POST TITLES */
+.page-id-2288 .pagetitle,
+.page-id-59 .pagetitle,
+.archive.date .cattitle,
+.post-template-default .cattitle {
+	display: none!important;
+}
+
+.archive.date .pagetitle,
+.archive .cattitle,
+.page-template-default .pagetitle {
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+	color: #e67824!important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+
+	z-index: 498;
+	font-family: "Libre Franklin", "sans-serif !important";
+}
+
+.post-template-default .pagetitle, 
+.archive .cattitle {
+	border-top-color: #e67824;
+	border-top-style: solid;
+	border-top-width: thin;
+}
+
+.archive .cattitle,
+.post-template-default .pagetitle {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	position: inherit;
+}
+
+.post-template-default .pagetitle h3, 
+.post-template-default .pagetitle h3 a, 
+.post-template-default .pagetitle h3 a:visited {
+	color: #6ec1e4 !important;
+	font-family: 'Libre Franklin', sans-serif!important;
+	font-size: 1.2em!important;
+}
+
+.pagetitle h3, 
+.pagetitle h3 a, 
+.pagetitle h3 a:visited {
+	font-size: 1em!important;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+	color: #e67824!important;
+	text-decoration: none;
+	padding-bottom: 10px;	
+}
+ 
+/* END   PAGE AND POST TITLES */
+
+
+	
+	/* Post and Page titles & BULLET POINTS */
+ #site-content h1, #site-content h1 a, #site-content h1 a:visited, 
+ #site-content h2, #site-content h2 a, #site-content h2 a:visited,
+ #site-content h3, #site-content h3 a, #site-content h3 a:visited, 
+ #site-content h4, #site-content h4 a, #site-content h4 a:visited, 
+ #site-content h5, #site-content h5 a, #site-content h5 a:visited {
+	color: #4d4e4e;   
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ #site-content h1, #site-content h1 a, #site-content h1 a:visited {font-size: 1.3em;} 
+ #site-content h2, #site-content h2 a, #site-content h2 a:visited {font-size: 1.2em;} 
+ #site-content h3, #site-content h3 a, #site-content h3 a:visited {font-size: 1.1em;}  	
+ #site-content h4, #site-content h4 a, #site-content h4 a:visited {font-size: 1em;} 
+ #site-content h5, #site-content h5 a, #site-content h5 a:visited {font-size: 1em;}
+ 
+ 
+ #site-content ol,
+ #site-content ul, #site-content ul li, 
+ #site-content p, .contact-form  {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1em;
+	line-height: 1.4em;
+	text-align: justify;	
+}
+
+ #site-content ul, 
+ #site-content ul li {
+	text-align: left;
+}
+
+#site-content li a:link,
+#site-content li a:visited,
+#site-content p a:link,
+#site-content p a:visited {
+	color: #000;
+}
+
+
+
+#site-content ul li,
+#site-content ol li {
+	margin-bottom: 20px;
+}
+
+
+
+#homebanner img {
+	width: 100%;
+}
+	
+.content img {
+	max-width: 100%;
+	height: auto;
+}
+	
+.thumb, 
+.thumb img {
+	width: auto;
+	height: auto;
+	float: none!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.has-large-font-size {
+	font-size: 2em!important;
+}
+
+.has-huge-font-size {
+	font-size: 2em!important;
+}
+
+.has-text-align-center {
+	text-align: center!important;
+}
+
+#mediatextfull .has-large-font-size p {
+	color: #4d4e4e;
+	margin: 0!important;
+	font-size: 1em;
+}
+
+
+.wp-block-cover {
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #6ec1e4!important; 
+}
+
+.wp-block-group {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.wp-block-image figcaption {
+	text-align: center;
+	font-style: italic;
+	display: inherit!important;
+}
+
+.wp-block-button {
+	text-align: center;
+	margin-bottom: 2em!important;
+	margin-top: 2em!important;
+	max-width: 90%!important;
+}
+
+.wp-block-button__link {
+	max-width: 90%!important;
+}
+
+
+#excerpt {
+	border-radius: 3px;
+	border: 1px solid #3787be;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+
+#excerpt-title {
+	padding: 10px;
+	background-color: #6ec1e4;
+	
+}
+ #excerpt-title a, 
+ #excerpt-title a:visited {color: #FFFFFF;}
+	
+
+
+
+/*  this is for jetpack share buttons and related links below posts for RESPONSIVE  8.8.2019 ts*/
+	#jp-relatedposts {
+	padding: 8px!important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+	
+	.jp-relatedposts-post  {
+	padding: 0!important;
+	width: 100% !important;
+}
+	
+	.jp-relatedposts-items   {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	width: 85% !important;
+	margin-top: 45px;
+}
+	
+	.jp-relatedposts-headline,
+	.jp-relatedposts-post-img, 
+	.jp-relatedposts-post-title {
+	margin-left: auto!important; 
+	margin-right: auto!important; 
+	width: 100% !important; 
+	height: auto !important; 
+	text-align: center!important; 
+	}
+	
+
+ /* controls next and previous links on bottom of category pages added to many sites in 2020 */
+#pagination-container {
+	clear: both;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-previous   {
+	float: left;
+}
+
+.nav-next  {
+	float: right;
+}
+	
+
+#breadcrumbs,  #breadcrumbs p, #breadcrumb_last {
+	font-size: 75%!important;
+	margin-left: 2%;
+	width: auto;
+	font-style: italic;
+}
+
+
+ 
+
+/*  FOOTER Widgets  */
+
+ #footer-widgetscontainer {
+	background-color: #D8D8D8;
+	width: 100%;
+	border-top-color: #4699b9;
+	border-top-style: solid;
+	border-top-width: thin;
+}
+
+	
+	#footer-widgets {
+	display: inherit;
+	width: auto;
+	border-bottom-color: #4699b9;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+
+}
+	
+	#footer-widgets a, 
+	#footer-widgets a:visited {
+	color: #006489;
+}
+
+	#footer-widgets p, 
+	#footer-widgets ul {
+	margin-left: 15px;
+}
+
+	#footer-widgets ul li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+	#footer-widget1,#footer-widget2,#footer-widget3  {
+	width: auto;
+	margin-bottom: 30px;
+}
+
+	#footer-widget2{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+	
+	#footer-widget1 h3,
+	#footer-widget2 h3,
+	#footer-widget3 h3 {
+	padding: 10px;
+	background-color: #e67824;
+	color: #FFFFFF;
+	margin-top: 0;
+}
+
+ #footer-widgets input, 
+ #footer-widgets textarea {
+	max-width: 100%;
+}
+
+
+
+
+/* ######### SITE FOOTER #######  */
+	 
+#site-footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #C0C0C0;
+}
+
+#breadcrumbs a { font-size: inherit; }
+
+.postdate{
+	text-align: center;
+}
+
+
+/* ######### SITE FOOTER END  #######  */
+
+#footersignature {
+	text-align: center;
+	font-size: .8em;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+}
